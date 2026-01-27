@@ -1,4 +1,5 @@
 \"Document formatting, custom defaults"
+.ds FAM T \"Times New Roman"
 .nr PS 12 \"textstorlek 12p"
 .nr PI 0.5c \"indrag 0.5cm"
 .nr VS 1.5m \"radavstånd cirka 1.15m"
