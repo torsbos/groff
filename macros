@@ -6,6 +6,7 @@
 .nr HY 0 \"Disable hyphenation"
 .de HI \"Hanging indent macro"
 .nr PI 1.25c 
+.nr VS 24 \"Line spacing = Double (24p)"
 .na \"Text align left"
 .XP
 .. 
