@@ -1,17 +1,11 @@
-\"Document formatting, custom defaults"
-.ds FAM T \"Times New Roman"
-.nr PS 12 \"textstorlek 12p"
-.nr PI 0.5c \"indrag 0.5cm"
-.nr VS 1.5m \"radavstånd cirka 1.15m"
-.nr PD 0 \"inget mellanrum mellan stycken"
-.nr HY 0 \"inga bindestreck, flyttar till nästa rad"
-\"Custom macros"
-.de HI \"Hanging indent macro, start"
-.nr PI 1.25c \"Indent 1.25cm"
+.ds FAM T \"Font family = Times New Roman"
+.nr PS 12 \"Font size = 12p"
+.nr PI 0.5c \"Indentation = 0.5cm"
+.nr VS 18 \"Line spacing = 1.5 (18p)"
+.nr PD 0 \"No margin between paragraphs"
+.nr HY 0 \"Disable hyphenation"
+.de HI \"Hanging indent macro"
+.nr PI 1.25c 
 .na \"Text align left"
 .XP
-.. \"Hanging indent macro end"
-.de BU \"Bullet list macro start"
-.IP \[bu]
-.. \"Bullet list end"
-\"Macros end"
+.. 
