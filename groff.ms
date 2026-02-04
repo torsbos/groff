@@ -1,11 +1,5 @@
 .so macros \"sourcing macros file in same directory"
-.TL \"Title"
-Title
-.AU \"Author"
-Author
-.AI \"Author institution"
-Institution
-.DA \"Todays date at the bottom"
+.tl 'Author'Title'Date'
 
 .NH 1 \"Numbered header, depth of 1" 
 Numbered header
