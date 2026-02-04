@@ -62,16 +62,17 @@ augue sit amet neque vulputate iaculis.
 
 
 .RS \"indented region start"
-.BU
+.IP \[bu]
 List item
-.BU
+.IP \[bu]
 List item
-.BU
+.IP \[bu]
 List item
 .RE \"indented region end"
 
 .bp \"break page"
 .SH \"unnumbered heading"
+.ce
 References
 
 .HI \"custom macro for hanging indent"
