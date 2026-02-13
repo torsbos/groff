@@ -4,32 +4,31 @@ based on [APA-lathunden](https://gupea.ub.gu.se/server/api/core/bitstreams/ea80e
 by [Göteborgs universitet (Gothenburg university)](https://gu.se)
 
 ## usage
-most of the formatting is defined in the `macros` file.
+most of the formatting is defined in the `macros.ms` file.
 
-source the `macros` file at the top of your `.ms` file.
+source the `macros` file at the top of your document. 
 
 ```
-.so macros
+.so macros.ms
 ```
 
-references are not automatic. you must therefore invoke the custom macro `.HI` for "hanging indent" before every reference.
+references are not automatic. you must therefore invoke the custom macro `.HANG` for "hanging indent" before every reference.
 
 example:
 
 ```
-.SH
-.ce
+.SE
 References
 
-.HI
-\"lgr22"
+.HANG
+\"lgr22
 .I "Läroplan för grundskolan, förskoleklassen och fritidshemmet" .
 (2022).
 Skolverket.
 https://www.skolverket.se/publikationer?id=13296.
 
-.HI
-\"dahl2011"
+.HANG
+\"dahl2011
 Dahl, M.
 (2011).
 .I "Barns sociala liv på fritidshemmet:
